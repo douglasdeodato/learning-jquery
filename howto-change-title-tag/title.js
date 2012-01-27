@@ -1,0 +1,1 @@
+$('title').text("title changed");
