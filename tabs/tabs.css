@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color:#000;
+    font-family:"Verdana";
+	background:#000;
+	margin:0px;
+	height:100%;
+}
+
+.clear {
+	clear:both;
+}
+
+/*estilo tabs */
+
+
+
+.container {width: 960px; margin: 30px auto;}
+
+p.tabs {width:440px; float:left; line-height:15px;}
+p.tabs2 {width:470px; margin-top:5px; float:left; line-height:15px; }
+p.tabs2b {width:470px; margin-top:5px; float:left; line-height:15px; }
+*:first-child+html p.tabs2b {width:870px; margin-top:-35px; float:left; line-height:15px; }
+
+p.smallmargin{margin-top:2px; border:1px solid black}
+p.tabs3 {width:440px; margin-top:2px; float:left; }
+p.tabs4 { line-height:18px; margin-top:4px; float:left; }
+
+*:first-child+html p.tabs2 { margin-top:-10px;}
+*:first-child+html p.tabs3 { margin-top:-13px;}
+
+
+
+*:first-child+html img.tab1 { margin-top:-297px;} /* IE Hacks */
+*html img.tab1 { margin-top:-291px;} /* IE Hacks */
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 41px;
+	width: 100%;
+	color:#000;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 41px;
+	width:150px; /* tamanho distancia menu */
+	line-height: 45px;
+	margin-right:4px;
+
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 1.2em;
+	padding: 0px;
+	outline: none;
+	text-align:center;
+}
+
+ul.tabs li a:hover {background: #fff ; color:#000;}
+*html ul.tabs li a:hover {
+	background: #fff ; 
+	color:#000!important; 
+	text-decoration: none!important;}
+
+.tabelas {
+	clear: both;
+	float: left; 
+	width: 960px;
+	background: #fff ;
+	height:441px;
+}
+
+*html .tabelas {margin-top:-5px!important;}
+
+.tab_conteudo {
+	padding-top:20px;
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+
