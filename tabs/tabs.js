@@ -12,7 +12,7 @@ $(document).ready(function() {
 		$(".tab_conteudo").hide(); 
 		var activeTab = $(this).find("a").attr("href"); 
 		$(activeTab).fadeIn(); 
-		return false;
+		return false; 
 	});
 	
 
