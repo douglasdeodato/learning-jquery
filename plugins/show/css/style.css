@@ -6,6 +6,7 @@ img {
 	
 	width:29px;
 	height:29px;
+	float:right;
 	
 }
 
@@ -23,9 +24,11 @@ a:hover {
 	#conteudo {
 		border:2px solid #fff;
 		background-color:#fff;
+		width:400px;
 		padding:12px;
 		margin-top:12px;
 		text-align:left;
 		font:normal 12px Verdana, Geneva, sans-serif; 
 		color: #000;
 	}	
+	
