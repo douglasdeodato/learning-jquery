@@ -1,6 +1,31 @@
+body {
+	background:#000;
+	
+}
 img {
 	
 	width:29px;
 	height:29px;
 	
 }
+
+a {
+	color: #fff;
+	text-decoration:none;
+	font:normal 12px Verdana, Geneva, sans-serif; 
+	}
+a:hover {
+	color:#fff;
+	text-decoration:underline;
+	font:normal 12px Verdana, Geneva, sans-serif; 
+	}
+	
+	#conteudo {
+		border:2px solid #fff;
+		background-color:#fff;
+		padding:12px;
+		margin-top:12px;
+		text-align:left;
+		font:normal 12px Verdana, Geneva, sans-serif; 
+		color: #000;
+	}	
