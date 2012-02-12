@@ -12,8 +12,7 @@ $(".button").click(function(){
 	return false;	
 		
 	}
-	
-	
+
 	
 });
 	
